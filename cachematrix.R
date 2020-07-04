@@ -8,6 +8,20 @@
 ## 4. get inverse of matrix
 ## Inverse of matrix is performed by ginv function hence used 
 ## MASS package
+# Input and output from the function.
+# >x<-makeCacheMatrix(matrix(c(1,2,3,4),nrow=2,ncol=2))
+# > cacheSove(x)
+# Error in cacheSove(x) : could not find function "cacheSove"
+# > cacheSolve(x)
+# [,1] [,2]
+# [1,]   -2  1.5
+# [2,]    1 -0.5
+# > cacheSolve(x)
+# getting cached data
+# [,1] [,2]
+# [1,]   -2  1.5
+# [2,]    1 -0.5
+# > 
 
 library('MASS')
 
